@@ -1,0 +1,17 @@
+body{
+    background: rgba(63, 63, 185, 0.466) !important;
+}
+
+
+
+.jumbotron {
+    background-color:$jumbot;
+    & p{
+        font-size:$fontp !important;
+        color:$colorp !important;
+    }
+}
+.pagination{
+    padding-top:20px !important;
+}
+$enable-gradients:true !important;
